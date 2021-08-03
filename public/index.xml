@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Song Tianxiang</title>
+    <link>https://songtianxian9.github.io/</link>
+    <description>Recent content on Song Tianxiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Aug 2021 08:32:43 +0800</lastBuildDate><atom:link href="https://songtianxian9.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://songtianxian9.github.io/post/test/</link>
+      <pubDate>Tue, 03 Aug 2021 08:32:43 +0800</pubDate>
+      
+      <guid>https://songtianxian9.github.io/post/test/</guid>
+      <description>what&amp;rsquo;s this</description>
+    </item>
+    
+  </channel>
+</rss>
