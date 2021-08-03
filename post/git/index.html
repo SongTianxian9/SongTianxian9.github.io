@@ -30,7 +30,7 @@
 <meta itemprop=name content="Git">
 <meta itemprop=description content="起步 vertion contral system发展的历史 从最开始的本地版本控制（存储在本地硬盘）到后来的集中式版本控制（有一个集中的存储服务器）再到后来的分布式版本控"><meta itemprop=datePublished content="2021-08-03T17:08:33+08:00">
 <meta itemprop=dateModified content="2021-08-03T17:08:33+08:00">
-<meta itemprop=wordCount content="399">
+<meta itemprop=wordCount content="397">
 <meta itemprop=keywords content="Pro Git,"><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Git">
 <meta name=twitter:description content="起步 vertion contral system发展的历史 从最开始的本地版本控制（存储在本地硬盘）到后来的集中式版本控制（有一个集中的存储服务器）再到后来的分布式版本控"><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
@@ -90,7 +90,7 @@
 <div class=post-category>
 <a href=/categories/git/> Git </a>
 </div>
-<span class=more-meta> 399 words </span>
+<span class=more-meta> 397 words </span>
 <span class=more-meta> 1 min read </span>
 </div>
 </header>
@@ -130,7 +130,7 @@
 <h3 id=git的三种状态>Git的三种状态</h3>
 <p>三种状态对应于三种工作区域</p>
 <ul>
-<li>Working Directory: 你从.git directory拉取出来的某一个版本的文件区域，平时xx修改文件的地方（已修改）</li>
+<li>Working Directory: 你从.git directory拉取出来的某一个版本的文件区域，平时修改文件的地方（已修改）</li>
 <li>Staging Area: .git 中的一个文件保存你下次要提交的文件列表信息（暂存）</li>
 <li>.git directory: 保存项目元数据及对象数据库的地方(已提交)</li>
 </ul>
@@ -138,9 +138,9 @@
 <ul>
 <li>system : git config &ndash;system , /etc/gitconfig</li>
 <li>global : git config &ndash;global , ~/.gitconfig OR ~/.config/git/config</li>
-<li>local : git config , ./.git/config
-初次配置：</li>
+<li>local : git config , ./.git/config</li>
 </ul>
+<p>初次配置：</p>
 <div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt>1
@@ -148,13 +148,13 @@
 </span><span class=lnt>3
 </span></code></pre></td>
 <td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git config --global user.name <span class=s2>&#34;Song Tianxiang&#34;</span>
+<pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>git config --global user.name <span class=s2>&#34;Song Tianxiang&#34;</span>
 git config --global user.email Songtx29.gmail
 git config --global core.editor nvim
 </code></pre></td></tr></table>
 </div>
 </div><p>检查配置:
-git config &ndash;list
+git config &ndash;list,
 git config <key></p>
 <h3 id=git-help>git help</h3>
 <div class=highlight><div class=chroma>
@@ -164,7 +164,7 @@ git config <key></p>
 </span><span class=lnt>3
 </span></code></pre></td>
 <td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git <span class=nb>help</span> &lt;verb&gt;
+<pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>git <span class=nb>help</span> &lt;verb&gt;
 git &lt;verb&gt; --help
 man git-&lt;verb&gt;
 </code></pre></td></tr></table>
