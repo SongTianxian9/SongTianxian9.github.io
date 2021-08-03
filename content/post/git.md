@@ -25,24 +25,26 @@ enableOutdatedInfoWarning: true
 4. 一般只添加数据，很难丢失数据
 ### Git的三种状态
 三种状态对应于三种工作区域
-* Working Directory: 你从.git directory拉取出来的某一个版本的文件区域，平时xx修改文件的地方（已修改）
+* Working Directory: 你从.git directory拉取出来的某一个版本的文件区域，平时修改文件的地方（已修改）
 * Staging Area: .git 中的一个文件保存你下次要提交的文件列表信息（暂存）
 * .git directory: 保存项目元数据及对象数据库的地方(已提交)
 ### git config
 * system : git config --system , /etc/gitconfig
 * global : git config --global , ~/.gitconfig OR ~/.config/git/config
 * local  : git config , ./.git/config
+
+
 初次配置：
-``` bash
+``` shell
 git config --global user.name "Song Tianxiang"
 git config --global user.email Songtx29.gmail
 git config --global core.editor nvim
 ```
 检查配置:
-git config --list
+git config --list, 
 git config <key>
 ### git help
-``` bash
+``` shell
 git help <verb>
 git <verb> --help
 man git-<verb>
