@@ -2,7 +2,7 @@ publishDir = "docs"
 baseURL = "https://songtianxian9.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Song Tianxiang"
+title = "Yu Fei"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -22,7 +22,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "Song Tianxiang"
+  name = "Yu Fei"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -60,9 +60,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   gitRepo = "https://github.com/SongTianxian9/SongTianxian9.github.io.git"
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "SongTianxiang"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["SongTianxiang", "blog","Computer Science"]
-  description = "Personal site for SongTianxiang"
+  logoTitle = "Yu Fei"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Yu Fei", "blog","Computer Science"]
+  description = "Personal site for Yu Fei"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 50
